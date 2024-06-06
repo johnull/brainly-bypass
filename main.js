@@ -1,0 +1,1 @@
+window.localStorage.removeItem("social-qa/telemetry") ?? null

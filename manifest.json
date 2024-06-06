@@ -1,0 +1,16 @@
+{
+  "name": "Brainly AD Blocker",
+  "version": "1.0",
+  "description": "Bypass shit ads of brainly",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": [
+        "main.js"
+      ],
+      "matches": [
+        "https://brainly.com.br/*"
+      ]
+    }
+  ]
+}
